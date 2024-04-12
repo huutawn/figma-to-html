@@ -338,3 +338,223 @@ line-height: 1.86; /* 185.714% */
     background: var(--primary-color);
     border: none;
 }
+
+/*=================================middle===========================*/
+.middle{
+    height: 380px;
+    background-color: #2E2100;
+    color: #F7F7F7;
+    margin-top: 200px;
+}
+.middle .box-sentence{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 96px 0;
+}
+.middle .self{
+    margin-right: 241px;
+}
+
+.middle img{
+    width: 72px;
+    height: 72px;
+}
+.middle .self h2{
+    color: #F7F7F7;
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px; /* 141.667% */
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+.middle .self .desc{
+    color: #BFBCB2;
+    font-size: 14px;
+    line-height: 26px; /* 185.714% */
+}
+.middle .dot{
+    margin-top: 28px;
+}
+.middle .sentence h2{
+    margin-left: 30px;
+    width: 740px;
+    color: #FFF;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 40px; /* 153.846% */
+}
+
+/*=========================introduce=====================*/
+
+.introduce .box-introduce{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+.introduce img{
+    width: 270px;
+    height: 405px;
+    border-radius: 16px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.introduce .pic{
+    height: 438px;
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+.introduce .text{
+    width: 470px;
+}
+.introduce .pic .first{
+    margin-top: 33px;
+}
+.introduce h2{
+    color: #171100;
+    font-family: var(--font-heading);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+.introduce .desc{
+    margin-top: 16px;
+    color: #5F5B53;
+    font-size: 16px;
+    line-height: 28px; /* 175% */
+}
+.introduce .btn{
+    width: 137px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border: none;
+    margin-top: 32px;
+}
+.introduce .box-introduce.seccond .pic{
+    order: 2;
+}
+.introduce .box-introduce.seccond .pic img{
+    width: 470px;
+    height: 440px;
+    background-size: cover;
+}
+.introduce .box-introduce.seccond{
+    display: flex;
+    justify-content: space-between;
+}
+/*=============================blog======================*/
+.blog-box{
+    margin-top: 200px;
+    background-color: #FFFCF4;
+    height: 878px;
+}
+.blog .text{
+    text-align: center;
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog .text h2{
+    color: #130606;
+    font-family: var(--font-heading);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+.blog .text .desc{
+    width: 448px;
+    color: #696262;
+    font-size: 16px;
+    line-height: 28px; /* 175% */
+    margin-top: 16px;
+    margin-bottom: 55px;
+}
+.blog .blog-list{
+    display: flex;
+    justify-content: space-between;
+}
+.blog .card{
+    width: 370px;
+    height: 467px;
+    border-radius: 16px;
+    background: #FFF;
+}
+.blog .card:hover{
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.blog .card-text{
+    margin: 20px 20px 28px 20px;
+}
+.blog .btn{
+    margin-top: 12px;
+}
+.blog .card h2{
+    margin-top: 12px;
+}
+.blog .card .btn:hover{
+    background-color: var(--primary-color);
+    border: none;
+}
+.blog .dot{
+    margin-left: 567px;
+    margin-top: 38px;
+}
+
+/*==========================footer==========================*/
+footer{
+    height: 428px;
+    background-color: #2E2100;
+    color: #fff;
+}
+footer .foot{
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 38px;
+    justify-content: space-between;
+}
+footer .lesson{
+    width: 267px;
+}
+footer .lesson h3{
+    color: #fff;
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px; /* 141.667% */
+    margin-bottom: 18px;
+}
+footer .lesson .desc{
+    color: #BFBCB2;
+font-size: 14px;
+line-height: 26px; /* 185.714% */
+}
+footer .icon{
+    margin-top: 18px;
+}
+footer  h3{
+color: #fff;
+}
+footer .desc{
+    margin-top: 12px;
+    color: #BFBCB2;
+font-size: 14px;
+line-height: 26px; /* 185.714% */
+}
+footer .desc.first{
+    margin-top: 28px;
+}
+footer .end{
+    color: #BFBCB2;
+    font-size: 14px;
+    line-height: 26px; /* 185.714% */
+    margin-top: 28px;
+    margin-left: 400px  ;
+}
+
+
